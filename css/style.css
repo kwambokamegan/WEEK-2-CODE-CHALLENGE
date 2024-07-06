@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+body {
+    background-image: url('https://media.istockphoto.com/id/1542614865/photo/man-shopping-vegetables-in-groceries-store.webp?b=1&s=170667a&w=0&k=20&c=bJAdmEJ33zxerVBCZ8inVTfpTyztGtrffUYvNzyRkns=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family:Playwrite GB S ;
+    color: aqua;
+    background-color: darkmagenta;
+}
