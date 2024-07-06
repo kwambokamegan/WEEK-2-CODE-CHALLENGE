@@ -85,9 +85,9 @@ Items added to the shopping list are stored in `localStorage` to persist between
 
 ### Rendering Items
 
-renderList(): Renders items from the items array to the `shoppingList` <ul> element.
+* renderList(): Renders items from the items array to the `shoppingList` <ul> element.
 
-createListItem(item, index): Dynamically creates <li> elements for each item with checkbox, editable label, and delete button.
+* createListItem(item, index): Dynamically creates <li> elements for each item with checkbox, editable label, and delete button.
 
 ### Usage
 
