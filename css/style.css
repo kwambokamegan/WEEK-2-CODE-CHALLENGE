@@ -1,13 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+
 body {
-    background-image: url('https://media.istockphoto.com/id/1542614865/photo/man-shopping-vegetables-in-groceries-store.webp?b=1&s=170667a&w=0&k=20&c=bJAdmEJ33zxerVBCZ8inVTfpTyztGtrffUYvNzyRkns=');
+    background-image: url('https://images.unsplash.com/photo-1483985988355-763728e1935b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvcHBpbmd8ZW58MHx8MHx8fDA%3D');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-h1{
+h1,h2{
     font-family:Playwrite GB S ;
     color: aqua;
-    background-color: darkmagenta;
+    background-color: brown;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    border: 5px solid #000;
+    padding: 20px;
+
+}
+
+.shop-now {
+    width:200px
+    
+}
+
+.header{
+    background-color: brown;
 }
