@@ -45,7 +45,30 @@ Sunday 6/7/2024
 ## Live link
  You can find the webpage using the live link : 
 
- 
+ ## HTML
+
+## Main 
+The main structure  includes:
+
+1. Header: Contains a title and a subtitle.
+
+2.Input Form: Allows users to input new items and includes buttons for adding and clearing items. 
+
+2.Shopping List: Displays the list of items added by the user.
+
+3.Image: A decorative image related to shopping.
+
+
+## Elements
+Input Field: <input type="text" id="itemInput"> where users enter new items.
+
+Add Button: <button id="addButton">ADD</button> to add new items to the list.
+
+Clear Button: <button id="clearButton">CLEAR</button> to clear all items from the list.
+
+List: <ul id="shoppingList"></ul> where items are displayed as <li> elements.
+
+
 
 
 

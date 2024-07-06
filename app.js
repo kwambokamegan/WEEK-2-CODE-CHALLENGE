@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", () => {
     const input = document.getElementById("itemInput");
     const addButton = document.getElementById("addButton");
@@ -58,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 saveItemsToLocalStorage();
                 renderList(); // Render the updated list
             } else {
-                alert('Item already exists!');
+                alert('You have already added this item');
             }
         }
     };
