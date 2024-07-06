@@ -45,6 +45,9 @@ Sunday 6/7/2024
 ## Live link
  You can find the webpage using the live link : 
 
+  https://kwambokamegan.github.io/WEEK-2-CODE-CHALLENGE/
+
+
  ## HTML
 
 ## Main 
