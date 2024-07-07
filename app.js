@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const clearButton = document.getElementById("clearButton");
     const list = document.getElementById("shoppingList");
 
-    // Initialize items array from localStorage or an empty array if none exists
+    
     let items = JSON.parse(localStorage.getItem('list')) || [];
 
     const saveItemsToLocalStorage = () => {
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     const renderList = () => {
-        list.innerHTML = ''; // Clear existing list in the DOM
+        list.innerHTML = ''; // Clear existing list 
         items.forEach((item, index) => {
             const li = createListItem(item, index);
             list.appendChild(li);
@@ -50,10 +50,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const addItem = () => {
         const itemName = input.value.trim();
         if (itemName) {
-            // Check if the item already exists in items array
+            // Check if the item already exists 
             const existingItemIndex = items.findIndex(item => item.name === itemName);
             if (existingItemIndex === -1) {
-                // Add new item to items array
+                // Add new item 
                 items.push({ name: itemName, purchased: false });
                 saveItemsToLocalStorage();
                 renderList(); // Render the updated list
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 alert('You have already added this item');
                 renderList(); // Render the current list after alert dismissal
             }
-            input.value = ''; // Clear input field after adding or attempting to add an item
+           
         }
     };
 
