@@ -50,8 +50,7 @@ Sunday 6/7/2024
 
  ## HTML
 
-## Main 
-The main structure  includes:
+The html structure  includes:
 
 1. Header: Contains a title and a subtitle.
 
@@ -59,17 +58,24 @@ The main structure  includes:
 
 2.Shopping List: Displays the list of items added by the user.
 
-3.Image: A decorative image related to shopping.
+3.Image: The image encourages the users to shop now.
 
 
 ## Elements
-Input Field: <input type="text" id="itemInput"> where users enter new items.
+* Input Field: <input type="text" id="itemInput"> where users enter new items.
 
-Add Button: <button id="addButton">ADD</button> to add new items to the list.
+* Add Button: <button id="addButton">ADD</button> to add new items to the list.
 
-Clear Button: <button id="clearButton">CLEAR</button> to clear all items from the list.
+* Clear Button: <button id="clearButton">CLEAR</button> to clear all items from the list.
 
-List: <ul id="shoppingList"></ul> where items are displayed as <li> elements.
+* List: <ul id="shoppingList"></ul> where items are displayed as <li> elements.
+
+### Usage
+
+ 1.Users can enter list items in the input field and click add to add them to the list
+
+ 2.Users can click clear to clear the shoppinh list
+
 
 ## JAVASCRIPT
 
@@ -105,8 +111,7 @@ Deleting: Click the "Delete" button next to an item to remove it from the list.
 
 
 
-This README provides an overview of how to use the shopping list webpage and outlines its functionality. Adjustments and enhancements can be made to suit specific needs or preferences.
-
+The readme provides the usage and functionality of the html and javascript structure of the wbe page.Details can be adjusted accordingly.
 
 
 
