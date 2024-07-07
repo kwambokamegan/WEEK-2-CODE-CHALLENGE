@@ -47,6 +47,14 @@ Sunday 6/7/2024
 
   https://kwambokamegan.github.io/WEEK-2-CODE-CHALLENGE/
 
+  ## Files 
+
+  * index.html file - It contains the general structure of the web application
+
+  * css/style.css - It is used for styling the web page
+
+  *app.js - Handles the way the user interracts with the web pag: Marking items as purchased and adding them to the shopping list.
+
 
  ## HTML
 
@@ -94,9 +102,8 @@ Items added to the shopping list are stored in `localStorage` to persist between
 
 ### Rendering Items
 
-* renderList(): Renders items from the items array to the `shoppingList` <ul> element.
+* renderList(): Renders items from the items array to the `shoppingList` 
 
-* createListItem(item, index): Dynamically creates <li> elements for each item with checkbox, editable label, and delete button.
 
 ### Usage
 

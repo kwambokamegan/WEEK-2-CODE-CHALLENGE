@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", () => {
     const input = document.getElementById("itemInput");
     const addButton = document.getElementById("addButton");
@@ -60,12 +59,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 renderList(); // Render the updated list
             } else {
                 alert('You have already added this item');
+                renderList(); // Render the current list after alert dismissal
             }
+            input.value = ''; // Clear input field after adding or attempting to add an item
         }
     };
 
     const clearList = () => {
-        items = []; // Clear items array
+        items = []; // Clear items array in memory
         localStorage.removeItem("list"); // Clear localStorage
         renderList(); // Clear the list from the DOM
     };
